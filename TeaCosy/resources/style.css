@@ -1,0 +1,102 @@
+body{
+  font-family: Helvetica, arial;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+header{
+  width: 100%;
+  top: 0;
+  height: 69px;
+  display: flex;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 1;
+  background-color: black;
+}
+header img{
+  height: 50px;
+  margin: auto auto auto 10px;
+}
+header nav{
+  margin: auto 10px auto auto;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+header a{
+  color: seashell;
+  font-size: 22px;
+}
+header ul{
+  list-style: none;
+}
+header li{
+  display: inline-flex;
+  padding: 0 15px;
+}
+.mission_bg{
+  position: relative;
+  margin-top: 69px;
+  height: 700px;
+  width: 1200px;
+  background-image: url(./img-mission-background.jpg);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mission{
+  background-color: black;
+}
+.tea{
+  width: 1000px;
+  margin: auto;
+  }
+.grouped-products{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.individual img{
+  height: 200px;
+  width: 300px;
+}
+.individual h4{
+  margin-top: 10px;
+}
+.individual{
+  margin: 0 15px;
+}
+.locations{
+  margin: auto;
+  background-image: url(\img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.locations h2{
+  margin-bottom: 10px;
+}
+.group-locations{
+  display: inline-flex;
+  flex-direction: row;
+}
+.ind-locations{
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  margin: 0 20px;
+}
+.footer{
+  height: 200;
+  margin-bottom: 20px;
+}
+#cr{
+  text-align: left;
+}
